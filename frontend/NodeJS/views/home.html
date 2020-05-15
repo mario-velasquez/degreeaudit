@@ -1,0 +1,128 @@
+
+
+      <!-- Compleated Courses -->
+      <div class="panel-header panel-header-sm">
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+          <!--first card-->
+          <div class="card">
+          <div class="card-header">
+            <h4 class="card-title"> Compleated Courses</h4>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              
+            <!--Start progress circles-->
+
+<div class="container">
+<div class="row">
+    <div class="col-md-3 col-sm-6">
+        <div class="progress blue">
+            <span class="progress-left">
+                <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value">90%</div>
+        </div>
+        <p class="text-center"><br>
+        Major Specific General Education Core 
+        </p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="progress blue">
+            <span class="progress-left">
+                <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value">90%</div>
+        </div>
+        <p class="text-center">
+        <br>
+        Core Curriculum UTRGV 2016-2017
+        </p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="progress blue">
+            <span class="progress-left">
+                <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value">90%</div>
+        </div>
+        <p class="text-center"><br>
+        Major in Computer Science
+        </p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="progress blue">
+            <span class="progress-left">
+                <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value">90%</div>
+        </div>
+        <p class="text-center"><br>
+        Language Proficiency
+        </p>
+    </div>
+</div>
+</div>
+            <!--End progress circles-->
+
+            </div>
+          </div>
+        </div>
+          <!--second card-->
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title"> Compleated Courses </h4>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead class=" text-primary">
+                      <th> Course Dept</th>
+                      <th> Course number </th>
+                      <th> Course Name</th>
+                      <th class="text-right">
+                        Semester Date
+                      </th>
+                    </thead>
+                    <tbody>
+                      {{#courses}}  
+                      <tr>
+                        <td> {{CourseDept}} </td>
+                        <td> {{CourseNum}}  </td>
+                        <td> {{Name}}  </td>
+                        <td class="text-right"> {{Institution}} </td>
+                      </tr>
+                      {{/courses}}
+                   
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+           
+          </div>
+        </div>
+
+        {{classes}}
+
+      <!--end card-->
+    </div>
+      
+    </div>
+  </div>
